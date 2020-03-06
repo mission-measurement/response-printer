@@ -1,0 +1,2027 @@
+{
+  "name": "Test Build ",
+  "language": null,
+  "surveyid": 3,
+  "jsonformat": [
+    {
+      "sectionname": "General Overview",
+      "subsections": [
+        {
+          "name": "Basics",
+          "questions": [
+            {
+              "name": "Lifecycle",
+              "tooltip": "If you have data from at least one life-cycle, please select \"Yes.\" ",
+              "inputtype": "yesnoradio",
+              "questionbody": "Has your program completed at least one full iteration or life-cycle? ",
+              "questionuuid": "37a7aee6-3c88-11ea-bed6-029d9aafd920",
+              "responsevalue": "Yes",
+              "questionnumber": 1,
+              "questiontypeid": 13,
+              "questionid": 1,
+              "inputdata": null
+            },
+            {
+              "name": "Reporting Time Frame",
+              "tooltip": "Time period for which you are Please indicate the program cycle on which you will be reporting. Please only report on a full set of completed results within a 12-month (or less) time period. If you would like to report on results over a longer time period than 12 months, please contact our team at help@impactgenome.org for guidance. ",
+              "inputtype": "daterange",
+              "questionbody": "Time period for which you are reporting: ",
+              "questionuuid": "e5f376f4-3c89-11ea-bed6-029d9aafd920",
+              "responsevalue": {
+                "start": "02/27/2012",
+                "end": "03/03/2020"
+              },
+              "questionnumber": 2,
+              "questiontypeid": 3,
+              "questionid": 2,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Region",
+          "questions": [
+            {
+              "name": "Operating Location",
+              "tooltip": "This is typically where your beneficiaries are located. If you are unsure how to answer, please contact us at help@impactgenome.org for assistance.",
+              "inputtype": "location-selector",
+              "questionbody": "Where does your program operate? ",
+              "questionuuid": "4eed57cd-3c93-11ea-bed6-029d9aafd920",
+              "responsevalue": null,
+              "questionnumber": 1,
+              "questiontypeid": 14,
+              "questionid": 11,
+              "inputdata": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Outcomes",
+      "subsections": [
+        {
+          "name": "Selection",
+          "questions": [
+            {
+              "name": "Targeted Outcomes",
+              "tooltip": "The Impact Genome outcomes are an evidence-based set of common goals or objectives that social impact organizations endeavor to achieve. If you feel that one or more of your program's outcomes is missing, please note that below.",
+              "inputtype": "targeted-outcomes",
+              "questionbody": "Identify the outcome(s) your program aims to produce. (select all that apply)",
+              "questionuuid": "4ef1bee3-3c93-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "impactarea": {
+                    "impactareaid": 1,
+                    "name": "Arts"
+                  },
+                  "focusarea": {
+                    "focusareaid": 25,
+                    "name": "Access and Appreciation"
+                  },
+                  "outcome": {
+                    "outcomeid": 67,
+                    "name": "Enhance Arts Appreciation",
+                    "description": "The demonstration of engaging in art projects that develop an appreciation of arts.",
+                    "definition": "This outcome is satisfied if an individual has demonstrated at least one of the following within the past year: - Engagement with art projects that develop cultural, educational, heritage, and scientific values - Increased appreciation of arts",
+                    "impactareaid": 1,
+                    "symbol": "AEAA",
+                    "display": "Enhance Arts Appreciation - The demonstration of engaging in art projects that develop an appreciation of arts.",
+                    "genomename": "Access and Appreciation",
+                    "genomeid": 25,
+                    "outcomecode": "Z01.01.01",
+                    "beneficiarytypes": [
+                      {
+                        "beneficiarytypeid": 1,
+                        "beneficiarytypename": "Individuals",
+                        "isdefault": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "outcome": {
+                    "outcomeid": 155,
+                    "name": "Reach Diverse Audiences",
+                    "description": "The attainment of awareness and interest in the arts community, including the establishment of more points of entry for audiences (e.g., free shows, creative use of public spaces, etc.).",
+                    "definition": "This outcome is satisfied if an individual of a targeted audience has achieved all of the following within the past year: - Engaged in art projects in their community - Has a diverse range of points of entry to art (e.g., free shows, special invitations to events, creative use of public spaces, etc.)",
+                    "impactareaid": 1,
+                    "symbol": "ARDA",
+                    "display": "Reach Diverse Audiences - The attainment of awareness and interest in the arts community, including the establishment of more points of entry for audiences (e.g., free shows, creative use of public spaces, etc.).",
+                    "genomename": "Access and Appreciation",
+                    "genomeid": 25,
+                    "outcomecode": "Z01.01.02",
+                    "beneficiarytypes": [
+                      {
+                        "beneficiarytypeid": 1,
+                        "beneficiarytypename": "Individuals",
+                        "isdefault": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "outcome": {
+                    "outcomeid": 211,
+                    "name": "Advocacy and Issue Awareness (Individuals)",
+                    "description": "The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+                    "definition": "This outcome is satisfied if an individual has demonstrated at least one of the following within the past year: \n\n- Self-awareness of their role and impact regarding a certain issue\n- A change in social norms to align with a policy position (e.g., beliefs, attitudes, values, etc.) ",
+                    "impactareaid": 1,
+                    "symbol": null,
+                    "display": "Advocacy and Issue Awareness (Individuals) - The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+                    "genomename": "Access and Appreciation",
+                    "genomeid": 25,
+                    "outcomecode": "Z01.01.10",
+                    "beneficiarytypes": [
+                      {
+                        "beneficiarytypeid": 1,
+                        "beneficiarytypename": "Individuals",
+                        "isdefault": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "outcome": {
+                    "outcomeid": 212,
+                    "name": "Advocacy and Issue Awareness (Organizations)",
+                    "description": "The demonstration of increased awareness of social issues leading to a change in social norms to align with a policy position. ",
+                    "definition": "This outcome is satisfied if an organization has demonstrated at least one of the following within the past year: \n\n- Establishment of a system to reach targeted audiences, using a large number and variety of mediums (e.g., social media, word of mouth, newsletters, etc.)\n- Self-awareness among a majority of participants of their role and impact regarding a certain issue\n- A change in social norms to align with a policy position (e.g., beliefs, attitudes, values, etc.)",
+                    "impactareaid": 1,
+                    "symbol": null,
+                    "display": "Advocacy and Issue Awareness (Organizations) - The demonstration of increased awareness of social issues leading to a change in social norms to align with a policy position. ",
+                    "genomename": "Access and Appreciation",
+                    "genomeid": 25,
+                    "outcomecode": "Z01.01.11",
+                    "beneficiarytypes": [
+                      {
+                        "beneficiarytypeid": 3,
+                        "beneficiarytypename": "Organizations",
+                        "isdefault": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "outcome": {
+                    "outcomeid": 301,
+                    "name": "Use of Data and Evaluation",
+                    "description": "The demonstration of effective use of data and evaluation, including use of tools and continuous improvement plans.",
+                    "definition": "This outcome is satisfied if an organization has demonstrated at least one of the following within the past year:\n\n- Improvement and effective use of data collection and analysis resources and methods (e.g. database management, survey design and distribution, use of analytic software, staff/human capacity)\n- Creation or improvement of evaluation tools (e.g. logic model, theory of change, measurement plans)\n- Use of continuous quality improvement cycles, leveraging feedback of results into the program?s evaluation strategy \n",
+                    "impactareaid": 1,
+                    "symbol": null,
+                    "display": "Use of Data and Evaluation - The demonstration of effective use of data and evaluation, including use of tools and continuous improvement plans.",
+                    "genomename": "Access and Appreciation",
+                    "genomeid": 25,
+                    "outcomecode": "Z01.01.07",
+                    "beneficiarytypes": [
+                      {
+                        "beneficiarytypeid": 3,
+                        "beneficiarytypename": "Organizations",
+                        "isdefault": 1
+                      }
+                    ]
+                  }
+                }
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 11,
+              "questionid": 12,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Prioritization",
+          "questions": [
+            {
+              "name": "",
+              "tooltip": "Programs can have many types of impact. Please choose the one goal that best represents the primary purpose of your program over 12 months. Any other outcome will be considered a “secondary” outcome for your program. You will have a chance to provide results for all outcomes (primary and secondary) later in the survey.",
+              "inputtype": "primary-outcome",
+              "questionbody": "The Impact Genome outcomes are an evidence-based set of common goals or objectives that social impact organizations endeavor to achieve. If you feel that one or more of your program's outcomes is missing, please note that below.",
+              "questionuuid": "4ef5b5a8-3c93-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 9,
+              "questionid": 13,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Feedback",
+          "questions": [
+            {
+              "name": "",
+              "tooltip": null,
+              "inputtype": "textarea",
+              "questionbody": "If you have input into the outcomes, or if there are outcomes your program achieves that you feel were not represented, please share your thoughts. ",
+              "questionuuid": "4efdbe49-3c93-11ea-bed6-029d9aafd920",
+              "responsevalue": "sdsdf",
+              "questionnumber": 1,
+              "questiontypeid": 12,
+              "questionid": 15,
+              "inputdata": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Activities",
+      "subsections": [
+        {
+          "name": "Intensity",
+          "questions": [
+            {
+              "name": "technology exclusive",
+              "tooltip": "If your program is primarily delivered in person, but follow-up is provided via app or website, or if your program is delivered both in person and via technology, select \"no.\" ",
+              "inputtype": "yesnoradio",
+              "questionbody": "Is your program delivered exclusively via technology? An example would be a program that is delivered using an app or website. ",
+              "questionuuid": "4f01a5c8-3c93-11ea-bed6-029d9aafd920",
+              "responsevalue": "Yes",
+              "questionnumber": 1,
+              "questiontypeid": 13,
+              "questionid": 16,
+              "inputdata": null
+            },
+            {
+              "name": "dosage",
+              "tooltip": null,
+              "inputtype": "dropdown",
+              "questionbody": "Dosage is the length of an individual session or interaction",
+              "questionuuid": "ff4b1c7f-5a6b-11ea-957b-16f36e376a09",
+              "responsevalue": {
+                "id": 141,
+                "text": "At least 30 minutes, but less than 1 hour"
+              },
+              "questionnumber": 2,
+              "questiontypeid": 4,
+              "questionid": 59,
+              "inputdata": [
+                {
+                  "id": 140,
+                  "text": "Less than 30 minutes"
+                },
+                {
+                  "id": 141,
+                  "text": "At least 30 minutes, but less than 1 hour"
+                },
+                {
+                  "id": 142,
+                  "text": "At least 1 hour, but less than 3 hours"
+                },
+                {
+                  "id": 143,
+                  "text": "At least 3 hours, but less than 6 hours"
+                },
+                {
+                  "id": 144,
+                  "text": "At least 6 hours, but less than 12 hours"
+                },
+                {
+                  "id": 145,
+                  "text": "At least 12 hours, but less than 24 hours"
+                },
+                {
+                  "id": 146,
+                  "text": "24 hours or more"
+                },
+                {
+                  "id": 147,
+                  "text": "Other"
+                }
+              ]
+            },
+            {
+              "name": "frequency",
+              "tooltip": null,
+              "inputtype": "dropdown",
+              "questionbody": "Frequency is how often someone engages with the program.",
+              "questionuuid": "2df8f680-5a6c-11ea-957b-16f36e376a09",
+              "responsevalue": {
+                "id": 150,
+                "text": "2-6 times per week"
+              },
+              "questionnumber": 3,
+              "questiontypeid": 4,
+              "questionid": 60,
+              "inputdata": [
+                {
+                  "id": 148,
+                  "text": "One time only"
+                },
+                {
+                  "id": 149,
+                  "text": "Once or more per day"
+                },
+                {
+                  "id": 150,
+                  "text": "2-6 times per week"
+                },
+                {
+                  "id": 151,
+                  "text": "Once per week"
+                },
+                {
+                  "id": 152,
+                  "text": "2-3 times per month"
+                },
+                {
+                  "id": 153,
+                  "text": "Once per month"
+                },
+                {
+                  "id": 154,
+                  "text": "2-11 times per year"
+                },
+                {
+                  "id": 155,
+                  "text": "Once per year"
+                },
+                {
+                  "id": 156,
+                  "text": "Less than once per year"
+                },
+                {
+                  "id": 157,
+                  "text": "Other"
+                }
+              ]
+            },
+            {
+              "name": "duration",
+              "tooltip": null,
+              "inputtype": "dropdown",
+              "questionbody": "Duration is the length of one program cycle.",
+              "questionuuid": "8d185170-5a6c-11ea-957b-16f36e376a09",
+              "responsevalue": {
+                "id": 159,
+                "text": "At least 1 week, but less than 1 month"
+              },
+              "questionnumber": 4,
+              "questiontypeid": 4,
+              "questionid": 61,
+              "inputdata": [
+                {
+                  "id": 158,
+                  "text": "Less than 1 week"
+                },
+                {
+                  "id": 159,
+                  "text": "At least 1 week, but less than 1 month"
+                },
+                {
+                  "id": 160,
+                  "text": "At least 1 month, but less than 3 months"
+                },
+                {
+                  "id": 161,
+                  "text": "At least 3 months, but less than 6 months"
+                },
+                {
+                  "id": 162,
+                  "text": "At least 6 months, but less than 9 months"
+                },
+                {
+                  "id": 163,
+                  "text": "At least 9 months, but less than 1 year"
+                },
+                {
+                  "id": 164,
+                  "text": "At least 1 year, but less than 3 years"
+                },
+                {
+                  "id": 165,
+                  "text": "3 years or more"
+                },
+                {
+                  "id": 166,
+                  "text": "Other"
+                }
+              ]
+            },
+            {
+              "name": "hours per year",
+              "tooltip": "Please enter a number. Your best approximation is fine.",
+              "inputtype": "number",
+              "questionbody": "How many total hours does a typical participant spend engaging with your program? ",
+              "questionuuid": "8e776929-3c94-11ea-bed6-029d9aafd920",
+              "responsevalue": "34",
+              "questionnumber": 5,
+              "questiontypeid": 8,
+              "questionid": 17,
+              "inputdata": null
+            },
+            {
+              "name": "hours per year",
+              "tooltip": null,
+              "inputtype": "textarea",
+              "questionbody": "If you would like, please provide additional commentary about your program’s intensity. ",
+              "questionuuid": "8e7c25bd-3c94-11ea-bed6-029d9aafd920",
+              "responsevalue": "ewrwerwerwerweras ads f asdfasd",
+              "questionnumber": 6,
+              "questiontypeid": 12,
+              "questionid": 18,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Core Components",
+          "questions": [
+            {
+              "name": "activities",
+              "tooltip": "Below you will find a list of common program components associated with your area of work. We provide this list so that you can give a more standardized, detailed explanation of your program’s design. These core components are evidence-based and are designed to be universal and comprehensive. Note: we don't necessarily endorse these components.",
+              "inputtype": "activities",
+              "questionbody": "Help us understand the core components of your program that drive it’s impact. ",
+              "questionuuid": "8e80969c-3c94-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "geneid": 2934,
+                  "genename": "Provides access to climate forecasts",
+                  "genedescription": "Provides local populations with complex weather models and climate forecasts produced at a large scale by NGOs or government",
+                  "value": "2",
+                  "label": "2"
+                },
+                {
+                  "geneid": 2935,
+                  "genename": "Provides expertise to government actors on best renewable-energy practices",
+                  "genedescription": "Provides science-based expertise and recommendations to local, state, and federal government actors on largescale solar, wind, and geothermal projects",
+                  "value": "1",
+                  "label": "1 - Incidental to our program design."
+                },
+                {
+                  "geneid": 2936,
+                  "genename": "Fosters communication between local stakeholders and climate experts",
+                  "genedescription": "Creates communication infrastructure for continued communication between local stakeholders and climate experts regarding current needs and future risks and vulnerabilities",
+                  "value": "4",
+                  "label": "4"
+                },
+                {
+                  "geneid": 2937,
+                  "genename": "Advocates for small and/or rural communities' adaptation needs",
+                  "genedescription": "Advocates for small and/or rural communities specifically by communicating their assessed needs and vulnerabilities to government actors and other stakeholders who may be able to contribute resources to climate-affected populations",
+                  "value": "5",
+                  "label": "5 - Critical to our program design."
+                },
+                {
+                  "geneid": 2938,
+                  "genename": "Advocates for or arrange for legal resource ownership rights of critical resources",
+                  "genedescription": "Advocates for enhanced resource-ownership rights for communities who may be affected by resource scarcity due to climate-related change",
+                  "value": "5",
+                  "label": "5 - Critical to our program design."
+                }
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 1,
+              "questionid": 19,
+              "inputdata": null
+            },
+            {
+              "name": "activities feedback",
+              "tooltip": "",
+              "inputtype": "textarea",
+              "questionbody": "If you have input into the list of components, please share your thoughts. ",
+              "questionuuid": "f03862fe-3c94-11ea-bed6-029d9aafd920",
+              "responsevalue": "sdfs",
+              "questionnumber": 2,
+              "questiontypeid": 12,
+              "questionid": 20,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Top Activities",
+          "questions": [
+            {
+              "name": "top activities",
+              "tooltip": null,
+              "inputtype": "top-genes",
+              "questionbody": "Please select your top activities. ",
+              "questionuuid": "0799281f-4147-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 15,
+              "questionid": 25,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Implementation",
+          "questions": [
+            {
+              "name": "activities implementation",
+              "tooltip": "Please write in third-person. ",
+              "inputtype": "gene-implementation",
+              "questionbody": "In 1-3 sentences, describe how you implement the following program components.",
+              "questionuuid": "4cc874c5-4147-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "value": "asdfasdf",
+                  "gene": {
+                    "geneid": 2937,
+                    "name": "Advocates for small and/or rural communities' adaptation needs",
+                    "description": "Advocates for small and/or rural communities specifically by communicating their assessed needs and vulnerabilities to government actors and other stakeholders who may be able to contribute resources to climate-affected populations"
+                  }
+                },
+                {
+                  "value": "asdfasdf",
+                  "gene": {
+                    "geneid": 2938,
+                    "name": "Advocates for or arrange for legal resource ownership rights of critical resources",
+                    "description": "Advocates for enhanced resource-ownership rights for communities who may be affected by resource scarcity due to climate-related change"
+                  }
+                },
+                {
+                  "value": "asdfa",
+                  "gene": {
+                    "geneid": 2936,
+                    "name": "Fosters communication between local stakeholders and climate experts",
+                    "description": "Creates communication infrastructure for continued communication between local stakeholders and climate experts regarding current needs and future risks and vulnerabilities"
+                  }
+                },
+                {
+                  "value": "asdfasdf",
+                  "gene": {
+                    "geneid": 2934,
+                    "name": "Provides access to climate forecasts",
+                    "description": "Provides local populations with complex weather models and climate forecasts produced at a large scale by NGOs or government"
+                  }
+                },
+                {
+                  "value": "adsfasdf",
+                  "gene": {
+                    "geneid": 2935,
+                    "name": "Provides expertise to government actors on best renewable-energy practices",
+                    "description": "Provides science-based expertise and recommendations to local, state, and federal government actors on largescale solar, wind, and geothermal projects"
+                  }
+                }
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 16,
+              "questionid": 26,
+              "inputdata": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Beneficiaries & Context",
+      "subsections": [
+        {
+          "name": "Beneficiary",
+          "questions": [
+            {
+              "name": "beneficiary overview",
+              "tooltip": null,
+              "inputtype": "textarea",
+              "questionbody": "Please provide a brief description of the primary beneficiaries that your program directly serves. Complete the following sentence in your response. ",
+              "questionuuid": "f03ca58e-3c94-11ea-bed6-029d9aafd920",
+              "responsevalue": "dsfasdfasdf",
+              "questionnumber": 1,
+              "questiontypeid": 12,
+              "questionid": 21,
+              "inputdata": null
+            },
+            {
+              "name": "beneficiary recruitment",
+              "tooltip": null,
+              "inputtype": "yesnoconditional",
+              "questionbody": "Are there eligibility criteria for participation in your program?",
+              "questionuuid": "2a017821-3c95-11ea-bed6-029d9aafd920",
+              "subquestions": [
+                {
+                  "name": "beneficiary recruitment explination",
+                  "tooltip": null,
+                  "inputtype": "textarea",
+                  "questionbody": "Please describe the eligibility criteria.",
+                  "questionuuid": "2a06fa4b-3c95-11ea-bed6-029d9aafd920",
+                  "responsevalue": {
+                    "questionuuid": "2a06fa4b-3c95-11ea-bed6-029d9aafd920",
+                    "value": "asfdasdf"
+                  },
+                  "questionnumber": 1,
+                  "questiontypeid": 12,
+                  "questionid": 23
+                }
+              ],
+              "responsevalue": null,
+              "questionnumber": 2,
+              "questiontypeid": 19,
+              "questionid": 22,
+              "inputdata": null
+            },
+            {
+              "name": "beneficiary gender",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "Beneficiary Gender",
+              "questionuuid": "89a809b3-446f-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 52,
+                    "text": "Male"
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 53,
+                    "text": "Female"
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 54,
+                    "text": "Non Binary"
+                  },
+                  "value": 43
+                }
+              ],
+              "questionnumber": 3,
+              "questiontypeid": 17,
+              "questionid": 42,
+              "inputdata": [
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "beneficiary age",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "Beneficiary Age",
+              "questionuuid": "e40f7003-53ff-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 55,
+                    "text": "Birth to Young Children (age 0-5) "
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 56,
+                    "text": "Children (age 6-9 or elementary grades)"
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 57,
+                    "text": "Early Adolescents (age 10-14 or middle grades) "
+                  },
+                  "value": 32
+                },
+                {
+                  "option": {
+                    "id": 58,
+                    "text": "Adolescents (age 15-18 or high school grades)"
+                  },
+                  "value": 12
+                },
+                {
+                  "option": {
+                    "id": 59,
+                    "text": "Young Adults (age 19-30) "
+                  },
+                  "value": 12
+                },
+                {
+                  "option": {
+                    "id": 60,
+                    "text": "Adults (age 31-64) "
+                  },
+                  "value": 12
+                },
+                {
+                  "option": {
+                    "id": 61,
+                    "text": "Aging, Elderly, Senior Citizens (age 65+) "
+                  },
+                  "value": 12
+                }
+              ],
+              "questionnumber": 4,
+              "questiontypeid": 17,
+              "questionid": 43,
+              "inputdata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "beneficiary raceenthicity",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "Beneficiary Race/Ethnicity",
+              "questionuuid": "e4161c35-53ff-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 62,
+                    "text": "American Indian or Alaska Native "
+                  },
+                  "value": 123
+                },
+                {
+                  "option": {
+                    "id": 63,
+                    "text": "Asian or Pacific Islander "
+                  },
+                  "value": 123
+                },
+                {
+                  "option": {
+                    "id": 68,
+                    "text": "Other"
+                  },
+                  "value": 123
+                }
+              ],
+              "questionnumber": 5,
+              "questiontypeid": 17,
+              "questionid": 44,
+              "inputdata": [
+                null,
+                null,
+                {
+                  "id": 64,
+                  "text": "Black or African American "
+                },
+                {
+                  "id": 65,
+                  "text": "Hispanic or Latino "
+                },
+                {
+                  "id": 66,
+                  "text": "White or Caucasian "
+                },
+                {
+                  "id": 67,
+                  "text": "Bi/Multiracial"
+                },
+                null
+              ]
+            },
+            {
+              "name": "beneficiary additional charateristics",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "Additional Beneficiary Characteristics",
+              "questionuuid": "b53343bc-5403-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 69,
+                    "text": "English Language Learners (ELL)"
+                  },
+                  "value": 343
+                },
+                {
+                  "option": {
+                    "id": 71,
+                    "text": "Homeless"
+                  },
+                  "value": 343
+                },
+                {
+                  "option": {
+                    "id": 73,
+                    "text": "Individuals with Disabilities"
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 6,
+              "questiontypeid": 17,
+              "questionid": 45,
+              "inputdata": [
+                null,
+                {
+                  "id": 70,
+                  "text": "First-Generation College Students "
+                },
+                null,
+                {
+                  "id": 72,
+                  "text": "Indigenous Populations"
+                },
+                null,
+                {
+                  "id": 74,
+                  "text": "Individuals with Mental Health Condition(s) "
+                },
+                {
+                  "id": 75,
+                  "text": "Individuals with Physical Health Condition(s) "
+                },
+                {
+                  "id": 76,
+                  "text": "LGBTQ+ "
+                },
+                {
+                  "id": 77,
+                  "text": "Low-Income or Economically Disadvantaged (i.e. At or below the federal poverty level; eligible to receive free or reduced lunch, etc.) "
+                },
+                {
+                  "id": 78,
+                  "text": "Military Veterans "
+                },
+                {
+                  "id": 79,
+                  "text": "Newcomers, Immigrants, and/or Refugees "
+                },
+                {
+                  "id": 80,
+                  "text": "Single / Lone Parents "
+                },
+                {
+                  "id": 81,
+                  "text": "Unemployed"
+                }
+              ]
+            },
+            {
+              "name": "beneficiary additional charateristics text",
+              "tooltip": "Please share any additional common characteristics shared by your program's beneficiaries (e.g., socioeconomic indicators, disability, employment, etc.). Sample response: 45% of the students receive free or reduced lunch ",
+              "inputtype": "textarea",
+              "questionbody": "Beneficiary Additional Characteristics",
+              "questionuuid": "eed7c517-5408-11ea-bed6-029d9aafd920",
+              "responsevalue": "fadfasdfasdf",
+              "questionnumber": 7,
+              "questiontypeid": 12,
+              "questionid": 46,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Location",
+          "questions": [
+            {
+              "name": "Additional Location Details",
+              "tooltip": "Please share any relevant detail about where the program operates (e.g., city, region, town, general description). ",
+              "inputtype": "textarea",
+              "questionbody": "Please describe where your program takes place",
+              "questionuuid": "72aaa089-414c-11ea-bed6-029d9aafd920",
+              "responsevalue": "sdfsdf",
+              "questionnumber": 1,
+              "questiontypeid": 12,
+              "questionid": 27,
+              "inputdata": null
+            },
+            {
+              "name": "Intervention setting",
+              "tooltip": "In which physical or online setting(s) does your program operate? You may choose as many as apply.",
+              "inputtype": "multiselect",
+              "questionbody": "Physical setting",
+              "questionuuid": "71175903-414d-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "id": 22,
+                  "text": "Camp"
+                },
+                {
+                  "id": 30,
+                  "text": "Museum/Library"
+                }
+              ],
+              "questionnumber": 2,
+              "questiontypeid": 7,
+              "questionid": 29,
+              "inputdata": [
+                {
+                  "id": 21,
+                  "text": "Art Studio"
+                },
+                {
+                  "id": 22,
+                  "text": "Camp"
+                },
+                {
+                  "id": 23,
+                  "text": "Child Care Center/Day Care"
+                },
+                {
+                  "id": 24,
+                  "text": "Community Center"
+                },
+                {
+                  "id": 25,
+                  "text": "Conference"
+                },
+                {
+                  "id": 26,
+                  "text": "Healthcare Center/Clinic"
+                },
+                {
+                  "id": 27,
+                  "text": "Home"
+                },
+                {
+                  "id": 28,
+                  "text": "In-School Classroom"
+                },
+                {
+                  "id": 29,
+                  "text": "In-School Outdoor"
+                },
+                {
+                  "id": 30,
+                  "text": "Museum/Library"
+                },
+                {
+                  "id": 31,
+                  "text": "Neighborhood"
+                },
+                {
+                  "id": 32,
+                  "text": "Non-School Indoor"
+                },
+                {
+                  "id": 33,
+                  "text": "Non-School Outdoor"
+                },
+                {
+                  "id": 34,
+                  "text": "Online"
+                },
+                {
+                  "id": 35,
+                  "text": "Place of Worship"
+                },
+                {
+                  "id": 36,
+                  "text": "Restaurant"
+                },
+                {
+                  "id": 37,
+                  "text": "Wilderness"
+                },
+                {
+                  "id": 38,
+                  "text": "Other"
+                }
+              ]
+            },
+            {
+              "name": "Intervention location",
+              "tooltip": "How would you characterize the locale or locales in which your program operates? This is where the program is located, NOT the characteristics of the beneficiaries. ",
+              "inputtype": "multiselect",
+              "questionbody": "Intervention Locale",
+              "questionuuid": "50dcc452-414e-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "id": 39,
+                  "text": "Rural"
+                },
+                {
+                  "id": 40,
+                  "text": "Suburban"
+                }
+              ],
+              "questionnumber": 3,
+              "questiontypeid": 7,
+              "questionid": 30,
+              "inputdata": [
+                {
+                  "id": 39,
+                  "text": "Rural"
+                },
+                {
+                  "id": 40,
+                  "text": "Suburban"
+                },
+                {
+                  "id": 41,
+                  "text": "Urban"
+                },
+                {
+                  "id": 42,
+                  "text": "Online"
+                }
+              ]
+            },
+            {
+              "name": "Beneficiary Proximity",
+              "tooltip": "If you are unsure, please provide your best approximation.",
+              "inputtype": "dropdown",
+              "questionbody": "How far away does a typical beneficiary live from where your program operates (i.e., from the zip code(s) or postal codes you listed above)?",
+              "questionuuid": "f2cf0b42-414c-11ea-bed6-029d9aafd920",
+              "responsevalue": {
+                "id": 15,
+                "text": "Up to 5 miles away "
+              },
+              "questionnumber": 4,
+              "questiontypeid": 4,
+              "questionid": 28,
+              "inputdata": [
+                {
+                  "id": 14,
+                  "text": "Up to 2 miles away "
+                },
+                {
+                  "id": 15,
+                  "text": "Up to 5 miles away "
+                },
+                {
+                  "id": 16,
+                  "text": "Up to 15 miles away "
+                },
+                {
+                  "id": 17,
+                  "text": "Up to 25 miles away "
+                },
+                {
+                  "id": 18,
+                  "text": "Up to 50 miles away "
+                },
+                {
+                  "id": 19,
+                  "text": "More than 50 miles away"
+                },
+                {
+                  "id": 20,
+                  "text": "Not applicable "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Outcome Specific",
+          "questions": [
+            {
+              "name": "JIG Group Identity",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants would identify as…",
+              "questionuuid": "02ca0895-540a-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 82,
+                    "text": "Jewish"
+                  },
+                  "value": 3
+                }
+              ],
+              "questionnumber": 1,
+              "questiontypeid": 17,
+              "questionid": 47,
+              "inputdata": [
+                null,
+                {
+                  "id": 83,
+                  "text": "Non Jewish"
+                }
+              ]
+            },
+            {
+              "name": "JIG Group Charateristics",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants have the following family backgrounds:",
+              "questionuuid": "3466b583-540b-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 84,
+                    "text": "Both Parents Identify as Jewish "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 85,
+                    "text": "One Parent Identifies as Jewish "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 86,
+                    "text": "Neither Parent Identifies as Jewish "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 87,
+                    "text": "Not Applicable "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 2,
+              "questiontypeid": 17,
+              "questionid": 48,
+              "inputdata": [
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "JIG Group Affiliations",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants are:",
+              "questionuuid": "800f7008-540b-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 88,
+                    "text": "Conservative "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 3,
+              "questiontypeid": 17,
+              "questionid": 49,
+              "inputdata": [
+                null,
+                {
+                  "id": 89,
+                  "text": "Orthodox "
+                },
+                {
+                  "id": 90,
+                  "text": "Reconstructionist "
+                },
+                {
+                  "id": 91,
+                  "text": "Reform "
+                },
+                {
+                  "id": 92,
+                  "text": "Unaffiliated "
+                },
+                {
+                  "id": 93,
+                  "text": "Not Applicable "
+                }
+              ]
+            },
+            {
+              "name": "JIG Group Importance",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants identify “Being Jewish” as: ",
+              "questionuuid": "bdfc1e8b-540b-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 94,
+                    "text": "Essential "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 4,
+              "questiontypeid": 17,
+              "questionid": 50,
+              "inputdata": [
+                null,
+                {
+                  "id": 95,
+                  "text": "Very Important but Not Essential "
+                },
+                {
+                  "id": 96,
+                  "text": "Not Too Important "
+                },
+                {
+                  "id": 97,
+                  "text": "Unable to Assess "
+                },
+                {
+                  "id": 98,
+                  "text": "Not Applicable "
+                }
+              ]
+            },
+            {
+              "name": "JIG Group Education",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants have the following levels of Jewish Education:",
+              "questionuuid": "3af3c683-540c-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 99,
+                    "text": "Extensive Jewish Day School Education "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 5,
+              "questiontypeid": 17,
+              "questionid": 51,
+              "inputdata": [
+                null,
+                {
+                  "id": 100,
+                  "text": "Some Jewish Day School Education "
+                },
+                {
+                  "id": 101,
+                  "text": "Participated in Jewish Summer Camp "
+                },
+                {
+                  "id": 102,
+                  "text": "Participated in Jewish Youth Groups/Programming "
+                },
+                {
+                  "id": 103,
+                  "text": "Participated in post-Day School Jewish Education "
+                },
+                {
+                  "id": 104,
+                  "text": "Participated in Synagogue School Education "
+                },
+                {
+                  "id": 105,
+                  "text": "Received Little Formal Jewish Education "
+                }
+              ]
+            },
+            {
+              "name": "JIG Group Friend Network",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants have the following networks:",
+              "questionuuid": "b2ba151d-540f-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 106,
+                    "text": "All Close Friends are Jewish "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 6,
+              "questiontypeid": 17,
+              "questionid": 52,
+              "inputdata": [
+                null,
+                {
+                  "id": 107,
+                  "text": "Most Close Friends are Jewish"
+                },
+                {
+                  "id": 108,
+                  "text": "Some Close Friends are Jewish"
+                },
+                {
+                  "id": 109,
+                  "text": "Hardly Any Close Friends are Jewish"
+                }
+              ]
+            },
+            {
+              "name": "JIG Group Friend Network",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "number",
+              "questionbody": "What percentage of your program participants are alumni of Taglit-Birthright Israel",
+              "questionuuid": "2543cdb8-5421-11ea-bed6-029d9aafd920",
+              "responsevalue": "34",
+              "questionnumber": 7,
+              "questiontypeid": 8,
+              "questionid": 53,
+              "inputdata": null
+            },
+            {
+              "name": "JIG Attachment to Israel ",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants would consider themselves:",
+              "questionuuid": "b75e4194-5421-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 110,
+                    "text": "Very Emotional Attached to Israel "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 8,
+              "questiontypeid": 17,
+              "questionid": 54,
+              "inputdata": [
+                null,
+                {
+                  "id": 111,
+                  "text": "Somewhat Emotionally Attached to Israel "
+                },
+                {
+                  "id": 112,
+                  "text": "Not Very Emotionally Attached to Israel "
+                },
+                {
+                  "id": 113,
+                  "text": "Not Emotionally Attached to Israel "
+                },
+                {
+                  "id": 114,
+                  "text": "Not Applicable "
+                }
+              ]
+            },
+            {
+              "name": "JIG Primary Jewish Institutional Setting",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What is the primary Jewish institutional setting of your program?",
+              "questionuuid": "35c11d63-5422-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 115,
+                    "text": "Formal"
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 9,
+              "questiontypeid": 17,
+              "questionid": 55,
+              "inputdata": [
+                null,
+                {
+                  "id": 116,
+                  "text": "Informal"
+                },
+                {
+                  "id": 117,
+                  "text": "Both"
+                }
+              ]
+            },
+            {
+              "name": "JIG Jewish Professional Presence Oversight",
+              "tooltip": "",
+              "inputtype": "multiselect",
+              "questionbody": "What level of Jewish professional presence/oversight does your program offer? (Select all that apply.)",
+              "questionuuid": "a7de791e-5422-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "id": 119,
+                  "text": "Jewish Educator/Teacher "
+                },
+                {
+                  "id": 120,
+                  "text": "Other Jewish Professional (e.g., Federation staff, Jewish Agency staff, etc.) "
+                }
+              ],
+              "questionnumber": 10,
+              "questiontypeid": 7,
+              "questionid": 56,
+              "inputdata": [
+                {
+                  "id": 118,
+                  "text": "Rabbi/Clergyperson "
+                },
+                {
+                  "id": 119,
+                  "text": "Jewish Educator/Teacher "
+                },
+                {
+                  "id": 120,
+                  "text": "Other Jewish Professional (e.g., Federation staff, Jewish Agency staff, etc.) "
+                },
+                {
+                  "id": 121,
+                  "text": "No Jewish Professional Presence "
+                }
+              ]
+            },
+            {
+              "name": "HOUSING Beneficiary Housing Status ",
+              "tooltip": "If you do not have specific percentages readily available, please enter your best approximation.",
+              "inputtype": "percentage",
+              "questionbody": "What percentage of your program’s participants are:",
+              "questionuuid": "0d097a7c-5423-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 122,
+                    "text": "Imminent Risk of Literal Homelessness (within 14 days) - Current housing (or available alternative housing) is safe - Must leave current housing or institution (e.g., hospital, jail) within 14 days - Does not have other housing options, financial resources, and/or support networks to maintain or obtain a safe place to stay after the next 14 days "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 123,
+                    "text": "At-risk of Literal Homelessness (15 - 60 days) - Current housing (or available alternative housing) is safe - Must leave current housing or institution (e.g., hospital, jail) within 15-60 days - Does not have other housing options, financial resources, and/or support networks to maintain or obtain a safe place to stay after the next 15-60 days "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 124,
+                    "text": "Unstably Housed - Current housing (or available alternative housing) is safe - May have to leave current housing or institution in the foreseeable future – within 90 days - Has other housing options, financial resources, and/or support networks to maintain or obtain a safe place to stay "
+                  },
+                  "value": 34
+                },
+                {
+                  "option": {
+                    "id": 125,
+                    "text": "Stably Housed - Current housing (or available alternative housing) is safe - Current housing is stable for the foreseeable future "
+                  },
+                  "value": 34
+                }
+              ],
+              "questionnumber": 11,
+              "questiontypeid": 17,
+              "questionid": 57,
+              "inputdata": [
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "EDUCATION and YOUTH Beneficiary Grades",
+              "tooltip": null,
+              "inputtype": "multiselect",
+              "questionbody": "With which particular grades does your program work? (Select all that apply.)",
+              "questionuuid": "46fcff61-5424-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "id": 127,
+                  "text": "Kindergarten "
+                }
+              ],
+              "questionnumber": 12,
+              "questiontypeid": 7,
+              "questionid": 58,
+              "inputdata": [
+                {
+                  "id": 126,
+                  "text": "Preschool / Prekindergarten "
+                },
+                {
+                  "id": 127,
+                  "text": "Kindergarten "
+                },
+                {
+                  "id": 128,
+                  "text": "Grade 1"
+                },
+                {
+                  "id": 129,
+                  "text": "Grade 2"
+                },
+                {
+                  "id": 130,
+                  "text": "Grade 3"
+                },
+                {
+                  "id": 131,
+                  "text": "Grade 4"
+                },
+                {
+                  "id": 132,
+                  "text": "Grade 5"
+                },
+                {
+                  "id": 133,
+                  "text": "Grade 6"
+                },
+                {
+                  "id": 134,
+                  "text": "Grade 7"
+                },
+                {
+                  "id": 135,
+                  "text": "Grade 8"
+                },
+                {
+                  "id": 136,
+                  "text": "Grade 9"
+                },
+                {
+                  "id": 137,
+                  "text": "Grade 10"
+                },
+                {
+                  "id": 138,
+                  "text": "Grade 11"
+                },
+                {
+                  "id": 139,
+                  "text": "Grade 12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Impact",
+      "subsections": [
+        {
+          "name": "Reach",
+          "questions": [
+            {
+              "name": "Reach",
+              "tooltip": null,
+              "inputtype": "reach",
+              "questionbody": "Reach",
+              "questionuuid": "e7adb652-5e28-11ea-957b-16f36e376a09",
+              "responsevalue": null,
+              "questionnumber": 1,
+              "questiontypeid": 20,
+              "questionid": 62,
+              "inputdata": null
+            }
+          ]
+        },
+        {
+          "name": "Impact",
+          "questions": [
+            {
+              "name": "Supporting Evidence location",
+              "tooltip": "Please write in third-person as this response will appear on your Impact Genome® Scorecard. ",
+              "inputtype": "textarea",
+              "questionbody": "Describe how you calculated or estimated the number of achieved outcomes, including: - the data point(s) that your calculation/estimation is based on - how you interpreted those data points - source of those data points  ",
+              "questionuuid": "caf5f0c1-41ec-11ea-bed6-029d9aafd920",
+              "responsevalue": "23",
+              "questionnumber": 1,
+              "questiontypeid": 12,
+              "questionid": 31,
+              "inputdata": null
+            },
+            {
+              "name": "Types of Evidence",
+              "tooltip": "If you are unsure, please provide your best guess or reach out to help@impactgenome.org to discuss. Also, our team will review your response and will reach out if we have any recommendations.",
+              "inputtype": "dropdown-with-textarea",
+              "questionbody": "Select the type of data you collected to determine the number of achieved outcomes.",
+              "questionuuid": "f0ef2925-41ec-11ea-bed6-029d9aafd920",
+              "responsevalue": {
+                "id": 44,
+                "text": "Output metrics - Data that directly quantifies beneficiary participation through measures like attendance rates, students served, workshops held "
+              },
+              "questionnumber": 2,
+              "questiontypeid": 6,
+              "questionid": 32,
+              "inputdata": [
+                {
+                  "id": 43,
+                  "text": "Anecdotal evidence or indirect measurement - Testimonials or case studies from participants, or estimates of effectiveness provided by program facilitators"
+                },
+                null,
+                {
+                  "id": 45,
+                  "text": "Point-in-time study - Evidence of success that comes from a study or survey of the program's impact on beneficiaries at a single point in time (i.e. at the end of the program)"
+                },
+                {
+                  "id": 46,
+                  "text": "Pre-post, cross-sectional, or difference-in-difference study (non-randomized control) -Evidence of success that comes from a study or survey of the program's impact on beneficiaries over a period of time and/or across populations without a randomized control group "
+                },
+                {
+                  "id": 47,
+                  "text": "Randomized control study - Evidence of success that comes from a study or survey of the program's impact on beneficiaries compared to a randomized control group"
+                },
+                {
+                  "id": 48,
+                  "text": "Other"
+                }
+              ]
+            },
+            {
+              "name": "Additional Comments",
+              "tooltip": "Use this space to provide any additional context or comments related to your program's impact and/or evidence. ",
+              "inputtype": "textarea",
+              "questionbody": "Additional comments (optional)",
+              "questionuuid": "c49a0277-41ed-11ea-bed6-029d9aafd920",
+              "responsevalue": "23",
+              "questionnumber": 3,
+              "questiontypeid": 12,
+              "questionid": 33,
+              "inputdata": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Budget & Resources",
+      "subsections": [
+        {
+          "name": "Budget",
+          "questions": [
+            {
+              "name": "Total Budget",
+              "tooltip": null,
+              "inputtype": "currency",
+              "questionbody": "Program budget (including direct and overhead costs) ",
+              "questionuuid": "06d67d1c-41ef-11ea-bed6-029d9aafd920",
+              "responsevalue": {
+                "currency": "CAD",
+                "total": "23"
+              },
+              "questionnumber": 1,
+              "questiontypeid": 2,
+              "questionid": 34,
+              "inputdata": null
+            },
+            {
+              "name": "Budget Allocation",
+              "tooltip": null,
+              "inputtype": "percentage",
+              "questionbody": "Roughly what percent of your overall program budget is spread across the categories listed below? (answers should sum to 100%) ",
+              "questionuuid": "9abd0f2f-41ef-11ea-bed6-029d9aafd920",
+              "responsevalue": [
+                {
+                  "option": {
+                    "id": 49,
+                    "text": "Overhead (i.e., overarching staff, administrative, fundraising, marketing, etc.)"
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 50,
+                    "text": "Direct costs of implementing program (i.e., direct program staff, program supplies/materials, curriculum, etc.)"
+                  },
+                  "value": 23
+                },
+                {
+                  "option": {
+                    "id": 51,
+                    "text": "Other (please specify)"
+                  },
+                  "value": 23
+                }
+              ],
+              "questionnumber": 2,
+              "questiontypeid": 17,
+              "questionid": 35,
+              "inputdata": [
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "In-kind Donations",
+              "tooltip": null,
+              "inputtype": "yesnoconditional",
+              "questionbody": "Did your program receive in-kind donations?",
+              "questionuuid": "fd9b2f2a-41ef-11ea-bed6-029d9aafd920",
+              "subquestions": [
+                {
+                  "name": "In-kind Donations Type",
+                  "tooltip": "Please provide a brief description of the in-kind donations your program received. ",
+                  "inputtype": "textarea",
+                  "questionbody": "Description of in-kind donations ",
+                  "questionuuid": "339bbee3-41f0-11ea-bed6-029d9aafd920",
+                  "responsevalue": {
+                    "questionuuid": "339bbee3-41f0-11ea-bed6-029d9aafd920",
+                    "value": "fgsdgfsdgf"
+                  },
+                  "questionnumber": 1,
+                  "questiontypeid": 12,
+                  "questionid": 37
+                },
+                {
+                  "name": "In-kind Donations Value",
+                  "tooltip": "Estimate the value of the in-kind donations your program received. One way to calculate this is to think about how much your program would have had to spend to pay for these donated goods and services had they not been donated. Your best estimate is fine. ",
+                  "inputtype": "currency",
+                  "questionbody": "Monetary value of in-kind donations ",
+                  "questionuuid": "6dd94b37-41f0-11ea-bed6-029d9aafd920",
+                  "responsevalue": {
+                    "questionuuid": "6dd94b37-41f0-11ea-bed6-029d9aafd920",
+                    "value": {
+                      "currency": "CAD",
+                      "total": "133"
+                    }
+                  },
+                  "questionnumber": 2,
+                  "questiontypeid": 2,
+                  "questionid": 38
+                }
+              ],
+              "responsevalue": null,
+              "questionnumber": 3,
+              "questiontypeid": 19,
+              "questionid": 36,
+              "inputdata": null
+            },
+            {
+              "name": "Volunteers",
+              "tooltip": null,
+              "inputtype": "yesnoconditional",
+              "questionbody": "Did your program utilize volunteers?",
+              "questionuuid": "0bab6bf6-41f1-11ea-bed6-029d9aafd920",
+              "subquestions": [
+                {
+                  "name": "Volunteer Hours",
+                  "tooltip": "Estimate the total number of volunteer hours your program utilized. For example, if your program had 10 volunteers who contributed 15 hours each, your response would be 150. ",
+                  "inputtype": "number",
+                  "questionbody": "Total volunteer hours utilized",
+                  "questionuuid": "6664e210-41f1-11ea-bed6-029d9aafd920",
+                  "responsevalue": {
+                    "questionuuid": "6664e210-41f1-11ea-bed6-029d9aafd920",
+                    "value": "34"
+                  },
+                  "questionnumber": 1,
+                  "questiontypeid": 8,
+                  "questionid": 40
+                },
+                {
+                  "name": "Volunteer Skill Based",
+                  "tooltip": "Examples of skills-based volunteering include lawyers, accountants, consultants, or IT support who are utilizing their specialized skills to assist a program in its operation. ",
+                  "inputtype": "number",
+                  "questionbody": "Percent of volunteer hours that were skills-based. ",
+                  "questionuuid": "85e80fe0-41f1-11ea-bed6-029d9aafd920",
+                  "responsevalue": {
+                    "questionuuid": "85e80fe0-41f1-11ea-bed6-029d9aafd920",
+                    "value": "23"
+                  },
+                  "questionnumber": 2,
+                  "questiontypeid": 8,
+                  "questionid": 41
+                }
+              ],
+              "responsevalue": null,
+              "questionnumber": 4,
+              "questiontypeid": 19,
+              "questionid": 39,
+              "inputdata": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionname": "Review/Submit",
+      "subsections": [
+        {
+          "name": "eff",
+          "questions": []
+        }
+      ]
+    }
+  ],
+  "globalvariables": {
+    "locations": [
+      {
+        "countryid": 1,
+        "name": "United States",
+        "isprimary": true
+      }
+    ],
+    "programid": 21,
+    "issubmitted": null,
+    "programname": "Test program",
+    "programreach": null,
+    "activitygenes": null,
+    "primaryoutcome": {
+      "outcome": {
+        "outcomeid": 17,
+        "name": "Acquire Full-time, Non-Seasonal Employment",
+        "description": "The attainment of full-time, non-seasonal employment and the soft skills to retain the position.",
+        "definition": "This outcome is satisfied if an individual has achieved all of the following within the past year: - Demonstrated soft skills necessary to retain employment - Attained full-time, non-seasonal employment and retained it for at least 90 days",
+        "outcomecode": "Z05.03.06",
+        "universaloutcomeid": "Z05.03.06",
+        "impactarea": {
+          "impactareaid": 5,
+          "name": "Economic Development"
+        },
+        "beneficiarytypes": [
+          {
+            "beneficiarytypeid": 1,
+            "name": "Individuals",
+            "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+          }
+        ],
+        "display": "Acquire Full-time, Non-Seasonal Employment - The attainment of full-time, non-seasonal employment and the soft skills to retain the position.",
+        "genomeid": 10,
+        "genomename": "Workforce Development",
+        "focusarea": {
+          "genomeid": 10,
+          "name": "Workforce Development"
+        }
+      }
+    },
+    "programoverview": "this is a test dscription",
+    "targetedoutcomes": [
+      {
+        "outcome": {
+          "outcomeid": 155,
+          "name": "Reach Diverse Audiences",
+          "description": "The attainment of awareness and interest in the arts community, including the establishment of more points of entry for audiences (e.g., free shows, creative use of public spaces, etc.).",
+          "definition": "This outcome is satisfied if an individual of a targeted audience has achieved all of the following within the past year: - Engaged in art projects in their community - Has a diverse range of points of entry to art (e.g., free shows, special invitations to events, creative use of public spaces, etc.)",
+          "outcomecode": "Z01.01.02",
+          "universaloutcomeid": "Z01.01.02",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 1,
+              "name": "Individuals",
+              "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+            }
+          ],
+          "display": "Reach Diverse Audiences - The attainment of awareness and interest in the arts community, including the establishment of more points of entry for audiences (e.g., free shows, creative use of public spaces, etc.).",
+          "genomeid": 25,
+          "genomename": "Access and Appreciation",
+          "focusarea": {
+            "genomeid": 25,
+            "name": "Access and Appreciation"
+          }
+        }
+      },
+      {
+        "outcome": {
+          "outcomeid": 211,
+          "name": "Advocacy and Issue Awareness (Individuals)",
+          "description": "The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+          "definition": "This outcome is satisfied if an individual has demonstrated at least one of the following within the past year: \n\n- Self-awareness of their role and impact regarding a certain issue\n- A change in social norms to align with a policy position (e.g., beliefs, attitudes, values, etc.) ",
+          "outcomecode": "Z01.01.10",
+          "universaloutcomeid": "Z01.01.10",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 1,
+              "name": "Individuals",
+              "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+            }
+          ],
+          "display": "Advocacy and Issue Awareness (Individuals) - The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+          "genomeid": 25,
+          "genomename": "Access and Appreciation",
+          "focusarea": {
+            "genomeid": 25,
+            "name": "Access and Appreciation"
+          }
+        }
+      },
+      {
+        "outcome": {
+          "outcomeid": 212,
+          "name": "Advocacy and Issue Awareness (Organizations)",
+          "description": "The demonstration of increased awareness of social issues leading to a change in social norms to align with a policy position. ",
+          "definition": "This outcome is satisfied if an organization has demonstrated at least one of the following within the past year: \n\n- Establishment of a system to reach targeted audiences, using a large number and variety of mediums (e.g., social media, word of mouth, newsletters, etc.)\n- Self-awareness among a majority of participants of their role and impact regarding a certain issue\n- A change in social norms to align with a policy position (e.g., beliefs, attitudes, values, etc.)",
+          "outcomecode": "Z01.01.11",
+          "universaloutcomeid": "Z01.01.11",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 3,
+              "name": "Organizations",
+              "description": "Nonprofits, businesses, schools, organizations, institutions, government agencies, etc."
+            }
+          ],
+          "display": "Advocacy and Issue Awareness (Organizations) - The demonstration of increased awareness of social issues leading to a change in social norms to align with a policy position. ",
+          "genomeid": 25,
+          "genomename": "Access and Appreciation",
+          "focusarea": {
+            "genomeid": 25,
+            "name": "Access and Appreciation"
+          }
+        }
+      },
+      {
+        "outcome": {
+          "outcomeid": 74,
+          "name": "Expose New Artistic Talent",
+          "description": "The attainment of opportunities for talented artists to display their work.",
+          "definition": "This outcome is satisfied if a talented artist has achieved  at least one of the following within the past year: - Expressed his/her art publicly - Gained access to art collectors / auctioneers",
+          "outcomecode": "Z01.01.03",
+          "universaloutcomeid": "Z01.01.03",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 1,
+              "name": "Individuals",
+              "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+            }
+          ],
+          "display": "Expose New Artistic Talent - The attainment of opportunities for talented artists to display their work.",
+          "genomeid": 26,
+          "genomename": "Creative Community",
+          "focusarea": {
+            "genomeid": 26,
+            "name": "Creative Community"
+          }
+        }
+      },
+      {
+        "outcome": {
+          "outcomeid": 199,
+          "name": "Strengthen Creative Community",
+          "description": "The development of a creative community that spurs economic growth in creative industries and attracts new employees (i.e., the creative class).",
+          "definition": "This outcome is satisfied if an organization has demonstrated at least one of the following within the past year: - Developed artistic participation in the community that spurs economic growth in creative industries - Establishment of art projects that attract new employees that contribute to the development of a new workforce (i.e., the creative class)",
+          "outcomecode": "Z01.02.02",
+          "universaloutcomeid": "Z01.02.02",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 3,
+              "name": "Organizations",
+              "description": "Nonprofits, businesses, schools, organizations, institutions, government agencies, etc."
+            }
+          ],
+          "display": "Strengthen Creative Community - The development of a creative community that spurs economic growth in creative industries and attracts new employees (i.e., the creative class).",
+          "genomeid": 26,
+          "genomename": "Creative Community",
+          "focusarea": {
+            "genomeid": 26,
+            "name": "Creative Community"
+          }
+        }
+      },
+      {
+        "outcome": {
+          "outcomeid": 229,
+          "name": "Advocacy and Issue Awareness (Individuals)",
+          "description": "The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+          "definition": "This outcome is satisfied if an individual has demonstrated at least one of the following within the past year: \n\n- Self-awareness of their role and impact regarding a certain issue\n- A change in social norms to align with a policy position (e.g., beliefs, attitudes, values, etc.) ",
+          "outcomecode": "Z01.02.09",
+          "universaloutcomeid": "Z01.02.09",
+          "impactarea": {
+            "impactareaid": 1,
+            "name": "Arts"
+          },
+          "beneficiarytypes": [
+            {
+              "beneficiarytypeid": 1,
+              "name": "Individuals",
+              "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+            }
+          ],
+          "display": "Advocacy and Issue Awareness (Individuals) - The demonstration of increased awareness of social issues leading to self-awareness and a change in social norms",
+          "genomeid": 26,
+          "genomename": "Creative Community",
+          "focusarea": {
+            "genomeid": 26,
+            "name": "Creative Community"
+          }
+        }
+      }
+    ],
+    "primarybeneficiary": {
+      "beneficiarytypeid": 1,
+      "name": "Individuals",
+      "description": "Children, seniors, students, unemployed, veterans, teachers, etc."
+    },
+    "organizationid": 1,
+    "classification": {
+      "programclassificationid": 1,
+      "name": "Direct Service",
+      "description": "Programs that provide services directly to clients, beneficiaries, or participants"
+    }
+  },
+  "surveyversionid": null
+}
