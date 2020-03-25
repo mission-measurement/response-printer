@@ -9,10 +9,13 @@ function getValueByFieldName(name, data){
     case 'classification':
       return data.classification.name
     case 'targetedoutcomes':
-      return data.targetedoutcomes.map(el => el.outcome.name).join(', ')
+      return data.targetedoutcomes.value.map(el => el.outcome.name).join(', ')
     case 'primaryoutcome':
       return data.primaryoutcome.outcome.name
+    case 'reportingperiod':
+      return
     default:
+      return
   }
 }
 

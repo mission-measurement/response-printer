@@ -9,7 +9,7 @@ const TextInput = (props) => {
 
   return (
     <View style={styles.question_response} wrap>
-      <Text wrap>
+      <Text style={styles.question} wrap>
         {question + ' '}
       </Text>
       <Text wrap>

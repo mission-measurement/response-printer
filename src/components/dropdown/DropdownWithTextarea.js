@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text } from '@react-pdf/renderer'
 
+import styles from '../../styles'
 
 const DropdownWithTextArea = (props) => {
   const {object} = props
@@ -10,7 +11,7 @@ const DropdownWithTextArea = (props) => {
 
   return (
     <>
-      <Text>{object.questionnumber + '. ' + object.questionbody}</Text>
+      <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
       <Text>{answer.text}</Text>
     </>
   )

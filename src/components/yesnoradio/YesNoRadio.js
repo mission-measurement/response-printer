@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text } from '@react-pdf/renderer'
+import styles from '../../styles'
 
 
 
@@ -9,7 +10,7 @@ const YesNoRadio = (props) => {
 
   return (
     <>
-      <Text>{object.questionnumber + '. ' + object.questionbody}</Text>
+      <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
       <Text>{answer}</Text>
     </>
   )

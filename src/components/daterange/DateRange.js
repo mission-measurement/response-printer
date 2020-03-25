@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text } from '@react-pdf/renderer'
 
+import styles from '../../styles'
 
 const DateRange = (props) => {
   const { object } = props
@@ -9,8 +10,8 @@ const DateRange = (props) => {
 
   return (
     <>
-      <Text>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text>{answer.start + ' - ' + answer.end}</Text>
+      <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
+      {answer ? <Text>{answer.start + ' - ' + answer.end}</Text> : <Text></Text>}
     </>
   )
 

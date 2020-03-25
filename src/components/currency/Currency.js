@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text } from '@react-pdf/renderer'
 
+import styles from '../../styles'
 
 const Currency = (props) => {
   const {object} = props
@@ -8,8 +9,8 @@ const Currency = (props) => {
 
   return (
     <>
-      <Text>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text>{answer.currency + ': ' + answer.total}</Text>
+      <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
+      {answer ? <Text>{answer.currency + ': ' + answer.total}</Text> : <Text></Text>}
     </>
   )
 }
