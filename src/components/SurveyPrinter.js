@@ -1,5 +1,6 @@
 import React from 'react'
 import useResponseContext from '../hooks/useResponseContext'
+import useGlobalContext from '../hooks/useGlobalContext'
 import globalVars from '../helpers/globalVars'
 import surveyVars from '../helpers/surveyVars'
 
@@ -13,6 +14,7 @@ import Index from './index/Index'
 
 const SurveyPrinter = () => {
   const data = useResponseContext()
+  const globaldata = useGlobalContext()
 
   //
 
@@ -20,20 +22,20 @@ const SurveyPrinter = () => {
     <>
       <Header
         organization={'My organization'}
-        programname={globalVars.getValueByFieldName('programname', data.globalvariables)}
+        programname={globalVars.getValueByFieldName('programname', globaldata.globalvariables)}
         reportingperiod={globalVars.getValueByFieldName('reportingperiod', data.jsonformat)}
       />
       <Index
         structure={data.jsonformat}
       />
       <Metadata
-        programname={globalVars.getValueByFieldName('programname', data.globalvariables)}
-        location={globalVars.getValueByFieldName('location', data.globalvariables)}
-        targetedoutcomes={globalVars.getValueByFieldName('targetedoutcomes', data.globalvariables)}
-        classification={globalVars.getValueByFieldName('classification', data.globalvariables)}
-        primarybeneficiary={globalVars.getValueByFieldName('primarybeneficiary', data.globalvariables)}
-        targetedoutcomes={globalVars.getValueByFieldName('targetedoutcomes', data.globalvariables)}
-        primaryoutcome={globalVars.getValueByFieldName('primaryoutcome', data.globalvariables)}
+        programname={globalVars.getValueByFieldName('programname', globaldata.globalvariables)}
+        location={globalVars.getValueByFieldName('location', globaldata.globalvariables)}
+        targetedoutcomes={globalVars.getValueByFieldName('targetedoutcomes', globaldata.globalvariables)}
+        classification={globalVars.getValueByFieldName('classification', globaldata.globalvariables)}
+        primarybeneficiary={globalVars.getValueByFieldName('primarybeneficiary', globaldata.globalvariables)}
+        targetedoutcomes={globalVars.getValueByFieldName('targetedoutcomes', globaldata.globalvariables)}
+        primaryoutcome={globalVars.getValueByFieldName('primaryoutcome', globaldata.globalvariables)}
       />
       {
         data.jsonformat.map(

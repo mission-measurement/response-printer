@@ -19,11 +19,7 @@ function getValueByFieldName(name, data){
   }
 }
 
-function getMetaVariables(data){
-}
-
 
 export default {
-  getValueByFieldName,
-  getMetaVariables
+  getValueByFieldName
 }
