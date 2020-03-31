@@ -10,7 +10,7 @@ const IndexEntry = (props) => {
   return (
     <View style={styles.header}>
       <View style={styles.index}>
-        <Text>{name}</Text>
+        <Text style={{fontFamily: 'Helvetica-Bold'}}>{name}</Text>
         {
           subsections.map((subsection, i) => {
             return <Text>{String.fromCharCode(i + 97) + ' ' + subsection.name}</Text>

@@ -1,16 +1,30 @@
 import React from 'react'
-import { Text } from '@react-pdf/renderer'
+import { View, Text } from '@react-pdf/renderer'
 
 import styles from '../../styles'
 
 const TargetedOutcomes = (props) => {
   const {object} = props
   const answer = object.responsevalue
-
+  console.log(answer)
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text style={{color: 'red'}}>{answer.map(option => { return (option ? option.outcome.name : 'Not Found')}).join(', ')}</Text>
+      {answer.map(option => {
+        if(option){
+          return (
+            <View style={{flexDirection: 'row'}}>
+              <Text style={{paddingRight: '10'}}>Impact Area: {option.impactarea.impactname}</Text>
+              <Text style={{paddingRight: '10'}}>Focus Area: {option.focusarea.name}</Text>
+              <Text style={{padding: '0'}}>Outcome: {option.outcome.name}</Text>
+            </View>
+          )
+        } else {
+          return (
+            <Text>Ups!</Text>
+          )
+        }
+      })}
     </>
   )
 }
