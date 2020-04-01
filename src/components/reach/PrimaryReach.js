@@ -8,7 +8,7 @@ const PrimaryReach = (props) => {
 
   return (
     <><Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-    {answer.map(input => <Text>{input.inputValues.beneficiary.name + ': ' + input.inputValues.achievednumber + '/' + input.inputValues.outofnumber}</Text>)}
+    {answer ? answer.map(input => <Text>{input.inputValues.beneficiary.name + ': ' + input.inputValues.achievednumber + '/' + input.inputValues.outofnumber}</Text>) : <Text></Text>}
     </>
   )
 

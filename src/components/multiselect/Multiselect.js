@@ -10,7 +10,7 @@ const Multiselect = (props) => {
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text>{answer.map(selection => {return (selection ? (selection.name ? selection.name : selection.text) : 'Not found')}).join(', ')}</Text>
+      <Text>{answer ? answer.map(selection => {return (selection ? (selection.name ? selection.name : selection.text) : 'Not found')}).join(', ') : ''}</Text>
     </>
   )
 }

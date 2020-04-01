@@ -10,7 +10,7 @@ const ListSelect = (props) => {
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text>{answer.text}</Text>
+      {answer ? <Text>{answer.text}</Text> : <Text></Text>}
     </>
   )
 }

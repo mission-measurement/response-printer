@@ -6,11 +6,11 @@ import styles from '../../styles'
 const TargetedOutcomes = (props) => {
   const {object} = props
   const answer = object.responsevalue
-  console.log(answer)
+  
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      {answer.map(option => {
+      {answer ? answer.map(option => {
         if(option){
           return (
             <View style={{flexDirection: 'row'}}>
@@ -24,7 +24,7 @@ const TargetedOutcomes = (props) => {
             <Text>Ups!</Text>
           )
         }
-      })}
+      }) : <Text></Text>}
     </>
   )
 }

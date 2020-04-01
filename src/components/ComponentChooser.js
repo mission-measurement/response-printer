@@ -5,8 +5,6 @@ import { Text } from '@react-pdf/renderer'
 const ComponentChooser = (props) => {
   const {type, object} = props
 
-  const answer = object.responsevalue
-
   switch (type) {
     case 'currency':
       return <Currency object={object} />

@@ -10,7 +10,7 @@ const Percentage = (props) => {
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      {answer.map(option => { return <Text>{option ? option.option.text + ': ' + option.value + '%' : 'Not available'}</Text>})}
+      {answer ? answer.map(option => { return <Text>{option ? option.option.text + ': ' + option.value + '%' : 'Not available'}</Text>}) : <Text></Text>}
     </>
   )
 }

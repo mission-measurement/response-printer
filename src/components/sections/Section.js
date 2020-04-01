@@ -6,8 +6,7 @@ import Subsection from './Subsection'
 
 const Section = (props) => {
   const { section, number } = props
-
-  console.log(section)
+  
   return (
     <>
       <View style={styles.subsection}>

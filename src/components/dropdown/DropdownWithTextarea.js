@@ -12,7 +12,7 @@ const DropdownWithTextArea = (props) => {
   return (
     <>
       <Text style={styles.question}>{object.questionnumber + '. ' + object.questionbody}</Text>
-      <Text>{answer.text}</Text>
+      <Text>{answer ? answer.text : ''}</Text>
     </>
   )
 }
